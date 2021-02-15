@@ -1,0 +1,1 @@
+import 'package:get/get.dart';import 'package:get/get_instance/src/bindings_interface.dart';import 'package:test_getx/getx_controller.dart';class ContadorBinding implements Bindings{  @override  void dependencies() {    Get.lazyPut<ControllerGetx>(()=> ControllerGetx());  }}
